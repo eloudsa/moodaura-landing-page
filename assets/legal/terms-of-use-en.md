@@ -1,6 +1,6 @@
 # Terms of Use
 
-**Last updated:** December 4, 2024
+**Last updated:** May 3, 2025
 
 Thank you for choosing Moodaura, a mobile application developed by Noratek SRL ("we", "us", "our"), a company registered in Belgium with VAT number BE0470043093. By accessing or using the Moodaura mobile application ("Service"), you agree to comply with these Terms of Use ("Terms"). Please read them carefully.
 
@@ -44,14 +44,35 @@ The Moodaura name, logo, and all related trademarks are the property of Noratek 
 
 These Terms shall be governed by and construed in accordance with the laws of Belgium, without regard to its conflict of law principles. Any legal disputes arising from these Terms will be resolved in the courts located in Belgium.
 
-## 11. Contact Us
+## 11. Subscriptions and Billing
+
+### Subscription Plans
+Moodaura offers paid subscriptions on a monthly or annual basis. Subscriptions grant access to premium features such as advanced mood analytics, PDF report generation, and cloud sync capabilities.
+
+### Billing and Auto-Renewal
+Your subscription will be charged to your Apple ID or Google Play account at the confirmation of purchase. Subscriptions automatically renew unless canceled at least 24 hours before the end of the current period.
+
+### Managing Subscriptions
+You can manage or cancel your subscription at any time through your device's app store settings:
+- iOS users: [Apple Support – Manage Subscriptions](https://support.apple.com/en-us/HT202039)
+- Android users: [Google Play – Manage Subscriptions](https://support.google.com/googleplay/answer/7018481)
+
+### Free Trials and Refunds
+Free trials, if offered, will automatically convert to a paid subscription unless canceled. Refunds are handled directly through Apple and Google according to their policies:
+- [Google Play Refund Policy](https://support.google.com/googleplay/answer/2479637)
+- [Apple – Request a Refund](https://support.apple.com/en-us/HT204084)
+
+### Changes to Subscription Terms
+We reserve the right to modify subscription pricing or terms. Users will be notified of changes, and continued use constitutes acceptance of the new terms.
+
+## 12. Contact Us
 
 For any questions about these Terms, please contact us at:
 
-**Company:** Noratek SRL  
-**Email:** [support@moodaura.app](mailto:support@moodaura.app)  
+**Company:** Noratek SRL
+**Email:** [support@moodaura.app](mailto:support@moodaura.app)
 **Website:** [https://www.moodaura.app](https://www.moodaura.app)
 
 ---
 
-© 2024 Noratek SRL. All rights reserved.
+© 2025 Noratek SRL. All rights reserved.

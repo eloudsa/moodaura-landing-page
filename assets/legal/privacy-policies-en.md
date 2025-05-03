@@ -1,6 +1,6 @@
 # Privacy Policy for Moodaura
 
-**Last updated:** December 4, 2024
+**Last updated:** May 3, 2025
 
 Noratek SRL ("we", "our", or "us"), a company registered in Belgium with VAT number BE0470043093, is committed to protecting the privacy of users of the Moodaura application ("App"). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our App.
 
@@ -73,14 +73,20 @@ We use third-party services such as **Sentry** to collect usage data and crash r
 
 We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last updated" date.
 
-## 11. Contact Us
+## 11. Subscription and Payment Data
+
+All purchases made through the Moodaura app are processed securely via the Apple App Store or Google Play Store. We do not collect or store your payment details. Instead, payment and subscription management is handled by your respective app store.
+
+We may receive anonymized data related to your subscription status (e.g., active, expired) to provide appropriate access to premium features. This data is used solely for this purpose and not shared with third parties except those involved in the subscription infrastructure (e.g., Firebase, RevenueCat).
+
+## 12. Contact Us
 
 For any questions about this Privacy Policy, please contact us at:
 
-**Company:** Noratek SRL  
-**Email:** [privacy@moodaura.app](mailto:privacy@moodaura.app)  
+**Company:** Noratek SRL
+**Email:** [privacy@moodaura.app](mailto:privacy@moodaura.app)
 **Website:** [https://www.moodaura.app](https://www.moodaura.app)
 
 ---
 
-© 2024 Noratek SRL. All rights reserved.
+© 2025 Noratek SRL. All rights reserved.

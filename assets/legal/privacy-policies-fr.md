@@ -1,6 +1,6 @@
 # Politique de Confidentialité pour Moodaura
 
-**Dernière mise à jour :** 4 décembre 2024
+**Dernière mise à jour :** 3 mai 2025
 
 Noratek SRL ("nous", "notre" ou "nos"), une société enregistrée en Belgique avec le numéro de TVA BE0470043093, s'engage à protéger la confidentialité des utilisateurs de l'application Moodaura ("App"). Cette Politique de Confidentialité explique comment nous collectons, utilisons, divulguons et protégeons vos informations lorsque vous utilisez notre App.
 
@@ -73,14 +73,22 @@ Nous utilisons des services tiers tels que **Sentry** pour collecter des donnée
 
 Nous pouvons mettre à jour notre Politique de Confidentialité de temps à autre. Nous vous informerons de tout changement en publiant la nouvelle Politique de Confidentialité sur cette page et en mettant à jour la date de "Dernière mise à jour".
 
-## 11. Contactez-Nous
+## 11. Données d’Abonnement et de Paiement
+
+Tous les achats effectués via l’application Moodaura sont traités de manière sécurisée par l’App Store d’Apple ou le Google Play Store. Nous ne collectons ni ne stockons vos informations de paiement. La gestion des paiements et des abonnements est assurée par votre boutique d'applications.
+
+Nous pouvons recevoir des données anonymisées concernant l’état de votre abonnement (par exemple : actif, expiré) afin de fournir l'accès approprié aux fonctionnalités premium. Ces données sont utilisées uniquement à cette fin et ne sont pas partagées avec des tiers, à l’exception de ceux impliqués dans l’infrastructure des abonnements (par ex. Firebase, RevenueCat).
+
+## 12. Contactez-Nous
 
 Pour toute question concernant cette Politique de Confidentialité, veuillez nous contacter à :
 
-**Société :** Noratek SRL  
-**Email :** [privacy@moodaura.app](mailto:privacy@moodaura.app)  
+**Société :** Noratek SRL
+**Email :** [privacy@moodaura.app](mailto:privacy@moodaura.app)
 **Site Web :** [https://www.moodaura.app](https://www.moodaura.app)
 
 ---
 
-© 2024 Noratek SRL. Tous droits réservés.
+© 2025 Noratek SRL. Tous droits réservés.
+
+

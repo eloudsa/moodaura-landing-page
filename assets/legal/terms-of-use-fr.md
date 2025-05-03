@@ -1,6 +1,6 @@
 # Conditions d'Utilisation
 
-**Dernière mise à jour :** 4 décembre 2024
+**Dernière mise à jour :** 3 mai 2025
 
 Merci d'avoir choisi Moodaura, une application mobile développée par Noratek SRL ("nous", "notre", "nos"), une société enregistrée en Belgique avec le numéro de TVA BE0470043093. En accédant ou en utilisant l'application mobile Moodaura ("Service"), vous acceptez de vous conformer à ces Conditions d'Utilisation ("Conditions"). Veuillez les lire attentivement.
 
@@ -44,14 +44,35 @@ Le nom Moodaura, le logo, et toutes les marques associées sont la propriété d
 
 Ces Conditions sont régies et interprétées conformément aux lois de la Belgique, sans égard à ses principes de conflit de lois. Tout litige juridique découlant de ces Conditions sera résolu devant les tribunaux situés en Belgique.
 
-## 11. Contactez-Nous
+## 11. Abonnements et Facturation
+
+### Offres d'abonnement
+Moodaura propose des abonnements mensuels ou annuels payants. Ces abonnements donnent accès à des fonctionnalités premium telles que les analyses avancées de l’humeur, la génération de rapports PDF et la synchronisation cloud.
+
+### Facturation et Renouvellement Automatique
+Votre abonnement sera facturé via votre compte Apple ID ou Google Play lors de la confirmation d’achat. Les abonnements sont renouvelés automatiquement sauf annulation au moins 24 heures avant la fin de la période en cours.
+
+### Gestion des Abonnements
+Vous pouvez gérer ou annuler votre abonnement à tout moment via les paramètres de votre boutique d’applications :
+- Utilisateurs iOS : [Apple – Gérer les abonnements](https://support.apple.com/fr-fr/HT202039)
+- Utilisateurs Android : [Google Play – Gérer les abonnements](https://support.google.com/googleplay/answer/7018481)
+
+### Périodes d’essai et Remboursements
+Les périodes d’essai gratuites, si proposées, sont automatiquement converties en abonnement payant sauf annulation. Les remboursements sont gérés directement par Apple et Google selon leurs politiques :
+- [Politique de remboursement Google Play](https://support.google.com/googleplay/answer/2479637)
+- [Apple – Demander un remboursement](https://support.apple.com/fr-fr/HT204084)
+
+### Modifications des Conditions d’Abonnement
+Nous nous réservons le droit de modifier les prix ou conditions des abonnements. Les utilisateurs seront notifiés des changements, et l'utilisation continue constitue une acceptation des nouvelles conditions.
+
+## 12. Contactez-Nous
 
 Pour toute question concernant ces Conditions, veuillez nous contacter à :
 
-**Société :** Noratek SRL  
-**Email :** [support@moodaura.app](mailto:support@moodaura.app)  
+**Société :** Noratek SRL
+**Email :** [support@moodaura.app](mailto:support@moodaura.app)
 **Site Web :** [https://www.moodaura.app](https://www.moodaura.app)
 
 ---
 
-© 2024 Noratek SRL. Tous droits réservés.
+© 2025 Noratek SRL. Tous droits réservés.
