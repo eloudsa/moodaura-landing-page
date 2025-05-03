@@ -37,4 +37,4 @@ The app is available for download on:
 ---
 
 ## Copyright
-© 2024 Noratek SRL. All rights reserved.
+© 2025 Noratek SRL. All rights reserved.
