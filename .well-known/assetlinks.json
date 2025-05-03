@@ -1,0 +1,14 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.cigarrynos",
+      "sha256_cert_fingerprints": [
+        "1A:23:30:20:2C:5D:6B:68:89:D2:52:04:48:A9:84:01:5A:04:4A:B9:FC:A3:A4:55:C9:74:0E:6B:21:4E:67:BF",
+        "4E:04:22:27:8B:8A:8C:34:D6:3F:1B:2B:B2:42:E1:2B:9D:73:51:46:5C:47:49:F2:DE:B5:DF:C6:CC:09:8B:6C",
+        "7D:EE:8C:06:E7:D2:38:41:B1:47:01:5F:AA:13:7C:6F:E1:44:D0:F2:64:A0:FC:FF:A5:66:E4:70:24:4E:E7:25"
+      ]
+    }
+  }
+]

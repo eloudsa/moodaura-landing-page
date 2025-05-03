@@ -1,0 +1,21 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": [
+          "5KGH8H7G66.com.cigarrynos"
+        ],
+       "paths": [
+                 "/share*",
+                 "/share/*"
+               ]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "5KGH8H7G66.com.cigarrynos"
+    ]
+  }
+}

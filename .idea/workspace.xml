@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="096d0a9d-c01b-4d2a-87be-bb5af5cd853b" name="Changes" comment="add sha256 for testing" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/moodaura-landing-page">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="develop" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develop" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2pi6P6JyWamtxcJjDjP0e6pHA4c" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.index.html.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "<unknown>",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/eloudsa/Projects/moodaura-landing-page/assets/icons",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.3180212",
+    "settings.editor.selected.configurable": "liveEdit",
+    "show.migrate.to.gradle.popup": "false",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/icons" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/assets/images" />
+      <recent name="$PROJECT_DIR$/assets/legal" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/assets/icons" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/moodaura-landing-page/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="cigarrynos-landing-page" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="cigarrynos-landing-page" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.23774.435" />
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-IU-251.23774.435" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="096d0a9d-c01b-4d2a-87be-bb5af5cd853b" name="Changes" comment="" />
+      <created>1733236522396</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733236522396</updated>
+      <workItem from="1733236523548" duration="19295000" />
+      <workItem from="1733331444508" duration="599000" />
+      <workItem from="1733482244682" duration="600000" />
+      <workItem from="1735652944540" duration="1391000" />
+      <workItem from="1735655000746" duration="24442000" />
+      <workItem from="1736078485343" duration="5000" />
+      <workItem from="1746282291144" duration="8552000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add hidden files">
+      <option name="closed" value="true" />
+      <created>1733241550994</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733241550994</updated>
+    </task>
+    <task id="LOCAL-00002" summary="change title headings">
+      <option name="closed" value="true" />
+      <created>1733244122124</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733244122124</updated>
+    </task>
+    <task id="LOCAL-00003" summary="readme file">
+      <option name="closed" value="true" />
+      <created>1733246902810</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1733246902810</updated>
+    </task>
+    <task id="LOCAL-00004" summary="new page for underage users, remove not required files, other refactor">
+      <option name="closed" value="true" />
+      <created>1733251878548</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1733251878548</updated>
+    </task>
+    <task id="LOCAL-00005" summary="refactor presentation">
+      <option name="closed" value="true" />
+      <created>1733312085101</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1733312085101</updated>
+    </task>
+    <task id="LOCAL-00006" summary="refactor presentation">
+      <option name="closed" value="true" />
+      <created>1733312540353</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1733312540353</updated>
+    </task>
+    <task id="LOCAL-00007" summary="refactor presentation">
+      <option name="closed" value="true" />
+      <created>1733313701945</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1733313701945</updated>
+    </task>
+    <task id="LOCAL-00008" summary="store applinks files">
+      <option name="closed" value="true" />
+      <created>1735653995078</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1735653995078</updated>
+    </task>
+    <task id="LOCAL-00009" summary="allow .well-known folder">
+      <option name="closed" value="true" />
+      <created>1735655352782</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1735655352782</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add share">
+      <option name="closed" value="true" />
+      <created>1735656571494</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1735656571494</updated>
+    </task>
+    <task id="LOCAL-00011" summary="change link association for iOS">
+      <option name="closed" value="true" />
+      <created>1735742315343</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1735742315343</updated>
+    </task>
+    <task id="LOCAL-00012" summary="change link association for iOS">
+      <option name="closed" value="true" />
+      <created>1735742364065</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1735742364065</updated>
+    </task>
+    <task id="LOCAL-00013" summary="change link association for iOS">
+      <option name="closed" value="true" />
+      <created>1735742978228</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1735742978228</updated>
+    </task>
+    <task id="LOCAL-00014" summary="change link association for iOS">
+      <option name="closed" value="true" />
+      <created>1735743690510</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1735743690510</updated>
+    </task>
+    <task id="LOCAL-00015" summary="change link association for iOS">
+      <option name="closed" value="true" />
+      <created>1735759988819</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1735759988819</updated>
+    </task>
+    <task id="LOCAL-00016" summary="change link association for iOS">
+      <option name="closed" value="true" />
+      <created>1735760239185</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1735760239185</updated>
+    </task>
+    <task id="LOCAL-00017" summary="change link association for iOS">
+      <option name="closed" value="true" />
+      <created>1735818495840</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1735818495840</updated>
+    </task>
+    <task id="LOCAL-00018" summary="change link association for iOS">
+      <option name="closed" value="true" />
+      <created>1735819730933</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1735819730933</updated>
+    </task>
+    <task id="LOCAL-00019" summary="change link association for iOS">
+      <option name="closed" value="true" />
+      <created>1735819933664</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1735819933664</updated>
+    </task>
+    <task id="LOCAL-00020" summary="change link association for iOS">
+      <option name="closed" value="true" />
+      <created>1735820023367</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1735820023367</updated>
+    </task>
+    <task id="LOCAL-00021" summary="change link association for iOS">
+      <option name="closed" value="true" />
+      <created>1735820414132</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1735820414132</updated>
+    </task>
+    <task id="LOCAL-00022" summary="change link association for iOS">
+      <option name="closed" value="true" />
+      <created>1735823615599</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1735823615599</updated>
+    </task>
+    <task id="LOCAL-00023" summary="change link association for iOS">
+      <option name="closed" value="true" />
+      <created>1735823789110</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1735823789110</updated>
+    </task>
+    <task id="LOCAL-00024" summary="fix association for Android">
+      <option name="closed" value="true" />
+      <created>1735842205395</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1735842205395</updated>
+    </task>
+    <task id="LOCAL-00025" summary="change sha256">
+      <option name="closed" value="true" />
+      <created>1735843307301</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1735843307301</updated>
+    </task>
+    <task id="LOCAL-00026" summary="change sha256">
+      <option name="closed" value="true" />
+      <created>1735843394946</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1735843394946</updated>
+    </task>
+    <task id="LOCAL-00027" summary="change sha256">
+      <option name="closed" value="true" />
+      <created>1735847697438</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1735847697438</updated>
+    </task>
+    <task id="LOCAL-00028" summary="add sha256 for testing">
+      <option name="closed" value="true" />
+      <created>1736018327054</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1736018327054</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add hidden files" />
+    <MESSAGE value="change title headings" />
+    <MESSAGE value="readme file" />
+    <MESSAGE value="new page for underage users, remove not required files, other refactor" />
+    <MESSAGE value="refactor presentation" />
+    <MESSAGE value="store applinks files" />
+    <MESSAGE value="allow .well-known folder" />
+    <MESSAGE value="add share" />
+    <MESSAGE value="change link association for iOS" />
+    <MESSAGE value="fix association for Android" />
+    <MESSAGE value="change sha256" />
+    <MESSAGE value="add sha256 for testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="add sha256 for testing" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "title": "MoodAura",
+    "description": "Track Your Moods, Understand Your Mind"
+  },
+  "ageVerification": {
+    "title": "Emotional Well-being Disclaimer",
+    "message": "MoodAura is a wellness application intended for users seeking to understand and manage their emotions. If you are experiencing a mental health crisis, please consult a professional.",
+    "confirmButton": "I Understand and Wish to Proceed",
+    "rejectButton": "Take Me Back"
+  },
+  "header": {
+    "tagline": "Map Your Moods, Shape Your Journey",
+    "description": "MoodAura helps you track, reflect, and visualize your emotions—empowering you to better understand your inner world through elegant design and meaningful insights."
+  },
+  "features": {
+    "title": "Key Features",
+    "subtitle": "Tools designed to help you understand and navigate your emotional landscape",
+    "items": [
+      {
+        "title": "Mood Tracking",
+        "description": "Log your emotional state, intensity, activities, notes, and location—multiple times per day."
+      },
+      {
+        "title": "Visual Mood Timeline",
+        "description": "View your emotions over time using a timeline and matrix inspired by the Circumplex Model of Affect."
+      },
+      {
+        "title": "Smart Journaling",
+        "description": "Reflect more deeply with expressive journaling, searchable entries, and personalized insights."
+      },
+      {
+        "title": "Analytics & Reports",
+        "description": "Generate insightful PDF reports and visualize trends with interactive charts and summaries."
+      },
+      {
+        "title": "Privacy-First Sync",
+        "description": "Your data is stored locally by default, with optional secure cloud sync using Firebase."
+      }
+    ]
+  },
+  "discover": {
+    "title": "Explore MoodAura",
+    "subtitle": "Take a visual tour of our calming, intuitive emotional tracking experience"
+  },
+  "download": {
+    "title": "Start Your Journey",
+    "subtitle": "Available now on iOS and Android"
+  },
+  "footer": {
+    "createdBy": "Made by",
+    "copyright": "© 2024",
+    "whatsNew": "What's New",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfUse": "Terms of Use"
+  },
+  "restriction": {
+    "pageTitle": "Mental Health Disclaimer",
+    "mainDescription": "MoodAura is not a medical tool. If you are experiencing severe emotional distress or a mental health emergency, please seek support from a licensed professional.",
+    "importantInfo": {
+      "title": "Before You Continue",
+      "items": [
+        "MoodAura is a self-awareness and reflection tool, not a diagnostic service.",
+        "By continuing, you acknowledge that MoodAura is not a substitute for professional mental health care.",
+        "Your privacy and data are respected, and you can opt out of cloud services at any time."
+      ]
+    },
+    "legalRequirements": {
+      "title": "Ethical Use Reminder",
+      "intro": "MoodAura is designed with ethics and safety in mind. Please be aware:",
+      "items": [
+        "Do not use MoodAura to replace professional mental health treatment.",
+        "Users are responsible for using the app in a respectful and non-harmful manner.",
+        "All content is intended for personal wellness and insight."
+      ]
+    },
+    "warning": "If you need help right now, please close the app and contact a professional support service."
+  }
+}
