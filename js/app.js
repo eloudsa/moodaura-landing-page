@@ -10,15 +10,18 @@ document.addEventListener("DOMContentLoaded", async () => {
     new URLSearchParams(window.location.search).get("lang") ||
     localStorage.getItem("language") ||
     "en";
+  window.currentLanguage = currentLanguage;
 
   // Translations store
   let translations = {};
+  window.translations = translations;
 
   // Load translations
   async function loadTranslations(lang) {
     try {
       const response = await fetch(`./translations/${lang}.json`);
       translations[lang] = await response.json();
+      window.translations = translations;
     } catch (error) {
       console.error(`Failed to load ${lang} translations:`, error);
     }
@@ -28,16 +31,41 @@ document.addEventListener("DOMContentLoaded", async () => {
   async function loadLegalContent(lang) {
     if (!contentArea) return; // Exit if not on legal page
 
-    const pageType = window.location.pathname.includes("privacy") ? "privacy-policies" : "terms-of-use";
+    const pageType = window.location.pathname.includes("privacy")
+      ? "privacy-policies"
+      : "terms-of-use";
     const filePath = `assets/legal/${pageType}-${lang}.md`;
 
     try {
       const response = await fetch(filePath);
-      if (!response.ok) throw new Error('Content not found');
+      if (!response.ok) throw new Error("Content not found");
       const text = await response.text();
       contentArea.innerHTML = marked.parse(text);
     } catch (error) {
       contentArea.innerHTML = `<p class="error">Error loading content: ${error.message}</p>`;
+    }
+  }
+
+  // Update contact section
+  function updateContactSection(lang) {
+    const t = translations[lang];
+    if (!t || !t.contact) return;
+    const contactIds = [
+      ["contact-heading", t.contact.title],
+      ["contact-desc", t.contact.subtitle],
+      ["contact-email-label", t.contact.emailLabel],
+      ["contact-title-label", t.contact.titleLabel],
+      ["contact-desc-label", t.contact.descLabel],
+      ["contact-send-btn", t.contact.sendButton],
+    ];
+    for (const [id, text] of contactIds) {
+      const el = document.getElementById(id);
+      if (el) el.textContent = text;
+    }
+    // Only update thank you if it is currently shown
+    const msg = document.getElementById("contact-form-message");
+    if (msg && msg.textContent.trim() && msg.textContent.trim() !== "") {
+      msg.textContent = t.contact.thankYou;
     }
   }
 
@@ -66,7 +94,9 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     // Features
     const featuresHeading = document.getElementById("features-heading");
-    const featuresDesc = document.querySelector(".features .section-description");
+    const featuresDesc = document.querySelector(
+      ".features .section-description"
+    );
     const featuresList = document.getElementById("features-list");
     if (featuresHeading && featuresDesc) {
       featuresHeading.textContent = t.features.title;
@@ -74,53 +104,58 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
     if (featuresList) {
       featuresList.innerHTML = t.features.items
-        .map(feature => `
+        .map(
+          (feature) => `
           <li>
             <h3>${feature.title}</h3>
             <p>${feature.description}</p>
           </li>
-        `).join("");
+        `
+        )
+        .join("");
     }
 
     // Discover section
     const carouselHeading = document.getElementById("carousel-heading");
-    const screenshotsDesc = document.querySelector(".screenshots .section-description");
+    const screenshotsDesc = document.querySelector(
+      ".screenshots .section-description"
+    );
     if (carouselHeading && screenshotsDesc) {
       carouselHeading.textContent = t.discover.title;
       screenshotsDesc.textContent = t.discover.subtitle;
     }
 
     // Restriction page
-    const restrictionContent = document.querySelector('.restriction-content');
+    const restrictionContent = document.querySelector(".restriction-content");
     if (restrictionContent) {
-      const pageTitle = restrictionContent.querySelector('h1');
-      const mainDesc = restrictionContent.querySelector('p');
+      const pageTitle = restrictionContent.querySelector("h1");
+      const mainDesc = restrictionContent.querySelector("p");
       if (pageTitle && mainDesc) {
         pageTitle.textContent = t.restriction.pageTitle;
         mainDesc.textContent = t.restriction.mainDescription;
       }
 
-      const importantInfoTitle = restrictionContent.querySelector('h2');
-      const importantInfoList = document.getElementById('important-info-list');
+      const importantInfoTitle = restrictionContent.querySelector("h2");
+      const importantInfoList = document.getElementById("important-info-list");
       if (importantInfoTitle && importantInfoList) {
         importantInfoTitle.textContent = t.restriction.importantInfo.title;
         importantInfoList.innerHTML = t.restriction.importantInfo.items
-          .map(item => `<li>${item}</li>`)
-          .join('');
+          .map((item) => `<li>${item}</li>`)
+          .join("");
       }
 
-      const legalTitle = restrictionContent.querySelectorAll('h2')[1];
-      const legalIntro = restrictionContent.querySelectorAll('p')[1];
-      const legalList = document.getElementById('legal-requirements-list');
+      const legalTitle = restrictionContent.querySelectorAll("h2")[1];
+      const legalIntro = restrictionContent.querySelectorAll("p")[1];
+      const legalList = document.getElementById("legal-requirements-list");
       if (legalTitle && legalIntro && legalList) {
         legalTitle.textContent = t.restriction.legalRequirements.title;
         legalIntro.textContent = t.restriction.legalRequirements.intro;
         legalList.innerHTML = t.restriction.legalRequirements.items
-          .map(item => `<li>${item}</li>`)
-          .join('');
+          .map((item) => `<li>${item}</li>`)
+          .join("");
       }
 
-      const warning = restrictionContent.querySelector('.warning');
+      const warning = restrictionContent.querySelector(".warning");
       if (warning) {
         warning.textContent = t.restriction.warning;
       }
@@ -128,11 +163,16 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     // Download section
     const downloadHeading = document.getElementById("download-heading");
-    const downloadDesc = document.querySelector(".download .section-description");
+    const downloadDesc = document.querySelector(
+      ".download .section-description"
+    );
     if (downloadHeading && downloadDesc) {
       downloadHeading.textContent = t.download.title;
       downloadDesc.textContent = t.download.subtitle;
     }
+
+    // Contact section
+    updateContactSection(lang);
   }
 
   // Update footer
@@ -144,7 +184,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       "footer-created-by": t.footer.createdBy,
       "whats-new": t.footer.whatsNew,
       "privacy-link": t.footer.privacyPolicy,
-      "terms-link": t.footer.termsOfUse
+      "terms-link": t.footer.termsOfUse,
     };
 
     for (const [id, text] of Object.entries(footerElements)) {
@@ -155,8 +195,9 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   // Language switcher
   async function updateContent(lang) {
-    localStorage.setItem('language', lang);
+    localStorage.setItem("language", lang);
     currentLanguage = lang;
+    window.currentLanguage = currentLanguage;
 
     if (!translations[lang]) {
       await loadTranslations(lang);
@@ -170,22 +211,21 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
 
     // Update footer links
-    const privacyLink = document.getElementById('privacy-link');
-    const termsLink = document.getElementById('terms-link');
+    const privacyLink = document.getElementById("privacy-link");
+    const termsLink = document.getElementById("terms-link");
     if (privacyLink && termsLink) {
-      privacyLink.setAttribute('href', `privacy.html?lang=${lang}`);
-      termsLink.setAttribute('href', `terms.html?lang=${lang}`);
+      privacyLink.setAttribute("href", `privacy.html?lang=${lang}`);
+      termsLink.setAttribute("href", `terms.html?lang=${lang}`);
     }
 
     // Update language link visual state
-    const langLinks = document.querySelectorAll('.language-links a');
-    langLinks.forEach(link => {
-      const isCurrent = link.textContent.trim().toLowerCase() === lang.toLowerCase();
-      link.classList.toggle('active', isCurrent);
+    const langLinks = document.querySelectorAll(".language-links a");
+    langLinks.forEach((link) => {
+      const isCurrent =
+        link.textContent.trim().toLowerCase() === lang.toLowerCase();
+      link.classList.toggle("active", isCurrent);
     });
   }
-
-
 
   // Expose globally
   window.updateContent = updateContent;

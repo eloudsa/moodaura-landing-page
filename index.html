@@ -1,137 +1,451 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="MoodAura – Track Your Moods, Understand Your Mind">
-  <title>MoodAura – Track Your Moods, Understand Your Mind</title>
-  <link rel="icon" type="image/png" href="assets/icons/moodaura-icon.png">
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-</head>
-<body>
-
-<!-- Mood Spheres Background -->
-<div class="mood-spheres" aria-hidden="true">
-  <div class="mood-sphere one"></div>
-  <div class="mood-sphere two"></div>
-  <div class="mood-sphere three"></div>
-</div>
-
-<!-- Landing Page Content -->
-<header>
-  <div class="header-content">
-    <div class="brand">
-      <img src="assets/icons/moodaura.png" alt="MoodAura Logo" class="app-icon" width="600">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="MoodAura – Track Your Moods, Understand Your Mind"
+    />
+    <title>MoodAura – Track Your Moods, Understand Your Mind</title>
+    <link rel="icon" type="image/png" href="assets/icons/moodaura-icon.png" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
+  <body>
+    <!-- Mood Spheres Background -->
+    <div class="mood-spheres" aria-hidden="true">
+      <div class="mood-sphere one"></div>
+      <div class="mood-sphere two"></div>
+      <div class="mood-sphere three"></div>
     </div>
-    <p id="tagline">Map Your Moods, Shape Your Journey</p>
-    <p class="header-description">
-      MoodAura helps you track, reflect, and visualize your emotions—empowering you to understand your inner world through elegant design and meaningful insights.
-    </p>
-  </div>
-</header>
 
-<nav class="language-links" aria-label="Language selection">
-  <a href="#" class="active" onclick="updateContent('en'); return false;" aria-label="Switch to English">EN</a>
-  <span aria-hidden="true">|</span>
-  <a href="#" onclick="updateContent('fr'); return false;" aria-label="Switch to French">FR</a>
-</nav>
-
-<main>
-  <!-- Features Section -->
-  <section class="features" aria-labelledby="features-heading">
-    <div class="section-container">
-      <h2 class="home-title" id="features-heading">What MoodAura Offers</h2>
-      <p class="section-description">A powerful, private tool to help you explore and understand your emotional life.</p>
-      <ul id="features-list">
-        <li>
-          <h3>Mood Tracking</h3>
-          <p>Record your mood, intensity, activities, notes, and even location—multiple times per day.</p>
-        </li>
-        <li>
-          <h3>Visual Mood Timeline</h3>
-          <p>Explore your emotional patterns through a beautiful, interactive timeline and matrix visualization.</p>
-        </li>
-        <li>
-          <h3>Smart Journaling</h3>
-          <p>Reflect more deeply with expressive notes, tags, and search-friendly entries.</p>
-        </li>
-        <li>
-          <h3>Analytics & Reports</h3>
-          <p>Gain insights through data visualizations and generate detailed PDF reports you can share or keep private.</p>
-        </li>
-        <li>
-          <h3>Privacy-First Sync</h3>
-          <p>Offline-first by design. Your data stays local by default with optional encrypted cloud backup via Firebase.</p>
-        </li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- Screenshots Section -->
-  <section class="screenshots" aria-labelledby="carousel-heading">
-    <div class="section-container">
-      <h2 class="home-title" id="carousel-heading">Take a Look Inside</h2>
-      <p class="section-description">Explore the clean, intuitive interface of MoodAura.</p>
-      <div class="screenshot-grid">
-        <img src="assets/images/screenshot-1.png" alt="Mood Entry Interface" loading="lazy">
-        <img src="assets/images/screenshot-2.png" alt="Emotion Visualization" loading="lazy">
-        <img src="assets/images/screenshot-3.png" alt="Timeline View" loading="lazy">
-        <img src="assets/images/screenshot-4.png" alt="Analytics Dashboard" loading="lazy">
-        <img src="assets/images/screenshot-5.png" alt="Journal Entry View" loading="lazy">
-        <img src="assets/images/screenshot-6.png" alt="Mood Filter Settings" loading="lazy">
-        <img src="assets/images/screenshot-7.png" alt="Report Generation" loading="lazy">
-        <img src="assets/images/screenshot-8.png" alt="Theme Settings" loading="lazy">
-        <img src="assets/images/screenshot-9.png" alt="Smart Notifications" loading="lazy">
-        <img src="assets/images/screenshot-10.png" alt="Language Options" loading="lazy">
+    <!-- Landing Page Content -->
+    <header>
+      <div class="header-content">
+        <div class="brand">
+          <img
+            src="assets/icons/moodaura.png"
+            alt="MoodAura Logo"
+            class="app-icon"
+            width="600"
+          />
+        </div>
+        <p id="tagline">Map Your Moods, Shape Your Journey</p>
+        <p class="header-description">
+          MoodAura helps you track, reflect, and visualize your
+          emotions—empowering you to understand your inner world through elegant
+          design and meaningful insights.
+        </p>
       </div>
-    </div>
-  </section>
+    </header>
 
-  <!-- Download Section -->
-  <section class="download" aria-labelledby="download-heading">
-    <div class="section-container">
-      <h2 class="home-title" id="download-heading">Get Started Today</h2>
-      <p class="section-description">Available on iOS and Android – your emotional companion, everywhere you go.</p>
-      <div class="store-buttons">
-        <a href="https://play.google.com" class="btn" aria-label="Get it on Google Play">
-          <img src="assets/icons/playstore.png" alt="Google Play Store" width="180" height="60">
-        </a>
-        <a href="https://apps.apple.com" class="btn" aria-label="Download on the App Store">
-          <img src="assets/icons/appstore.png" alt="Apple App Store" width="180" height="60">
-        </a>
-      </div>
-    </div>
-  </section>
-</main>
-
-<footer>
-  <div class="footer-content">
-    <div class="footer-creator">
-      <span id="footer-created-by">Made by</span> Said Eloudrhiri
-      <span class="copyright">&copy; 2025, <a href="https://noratek.io">Noratek srl</a></span>
-    </div>
-
-    <div class="social-links">
-      <a href="mailto:support@moodaura.app" aria-label="Contact Support">
-        <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
-          <polyline points="22,6 12,13 2,6"/>
-        </svg>
-      </a>
-    </div>
-
-    <nav class="footer-nav" aria-label="Footer navigation">
-      <a href="changelog.html" id="whats-new">What's New</a>
-      <a href="privacy.html?lang=en" id="privacy-link">Privacy Policy</a>
-      <a href="terms.html?lang=en" id="terms-link">Terms of Use</a>
+    <nav class="language-links" aria-label="Language selection">
+      <a
+        href="#"
+        class="active"
+        onclick="updateContent('en'); return false;"
+        aria-label="Switch to English"
+        >EN</a
+      >
+      <span aria-hidden="true">|</span>
+      <a
+        href="#"
+        onclick="updateContent('fr'); return false;"
+        aria-label="Switch to French"
+        >FR</a
+      >
     </nav>
-  </div>
-</footer>
 
-<!-- Scripts -->
-<script src="./js/app.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-</body>
+    <main>
+      <!-- Features Section -->
+      <section class="features" aria-labelledby="features-heading">
+        <div class="section-container">
+          <h2 class="home-title" id="features-heading">What MoodAura Offers</h2>
+          <p class="section-description">
+            A powerful, private tool to help you explore and understand your
+            emotional life.
+          </p>
+          <ul id="features-list">
+            <li>
+              <h3>Mood Tracking</h3>
+              <p>
+                Record your mood, intensity, activities, notes, and even
+                location—multiple times per day.
+              </p>
+            </li>
+            <li>
+              <h3>Visual Mood Timeline</h3>
+              <p>
+                Explore your emotional patterns through a beautiful, interactive
+                timeline and matrix visualization.
+              </p>
+            </li>
+            <li>
+              <h3>Smart Journaling</h3>
+              <p>
+                Reflect more deeply with expressive notes, tags, and
+                search-friendly entries.
+              </p>
+            </li>
+            <li>
+              <h3>Analytics & Reports</h3>
+              <p>
+                Gain insights through data visualizations and generate detailed
+                PDF reports you can share or keep private.
+              </p>
+            </li>
+            <li>
+              <h3>Privacy-First Sync</h3>
+              <p>
+                Offline-first by design. Your data stays local by default with
+                optional encrypted cloud backup via Firebase.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Screenshots Section -->
+      <section class="screenshots" aria-labelledby="carousel-heading">
+        <div class="section-container">
+          <h2 class="home-title" id="carousel-heading">Take a Look Inside</h2>
+          <p class="section-description">
+            Explore the clean, intuitive interface of MoodAura.
+          </p>
+          <div class="screenshot-grid">
+            <img
+              src="assets/images/screenshot-1.png"
+              alt="Moodaura mood entry screen"
+              loading="lazy"
+            />
+            <img
+              src="assets/images/screenshot-2.png"
+              alt="Moodaura emotion visualization chart"
+              loading="lazy"
+            />
+            <img
+              src="assets/images/screenshot-3.png"
+              alt="Moodaura mood timeline view"
+              loading="lazy"
+            />
+            <img
+              src="assets/images/screenshot-4.png"
+              alt="Moodaura analytics dashboard"
+              loading="lazy"
+            />
+            <img
+              src="assets/images/screenshot-5.png"
+              alt="Moodaura journal entry interface"
+              loading="lazy"
+            />
+            <img
+              src="assets/images/screenshot-6.png"
+              alt="Moodaura mood filter settings"
+              loading="lazy"
+            />
+            <img
+              src="assets/images/screenshot-7.png"
+              alt="Moodaura report generation screen"
+              loading="lazy"
+            />
+            <img
+              src="assets/images/screenshot-8.png"
+              alt="Moodaura theme settings options"
+              loading="lazy"
+            />
+            <img
+              src="assets/images/screenshot-9.png"
+              alt="Moodaura smart notifications example"
+              loading="lazy"
+            />
+            <img
+              src="assets/images/screenshot-10.png"
+              alt="Moodaura language selection options"
+              loading="lazy"
+            />
+            <img
+              src="assets/images/screenshot-11.png"
+              alt="Moodaura onboarding welcome screen"
+              loading="lazy"
+            />
+            <img
+              src="assets/images/screenshot-12.png"
+              alt="Moodaura mood calendar view"
+              loading="lazy"
+            />
+            <img
+              src="assets/images/screenshot-13.png"
+              alt="Moodaura tag management interface"
+              loading="lazy"
+            />
+            <img
+              src="assets/images/screenshot-14.png"
+              alt="Moodaura backup and restore settings"
+              loading="lazy"
+            />
+            <img
+              src="assets/images/screenshot-15.png"
+              alt="Moodaura premium features overview"
+              loading="lazy"
+            />
+            <img
+              src="assets/images/screenshot-16.png"
+              alt="Moodaura account settings screen"
+              loading="lazy"
+            />
+            <img
+              src="assets/images/screenshot-17.png"
+              alt="Moodaura help and support section"
+              loading="lazy"
+            />
+            <img
+              src="assets/images/screenshot-18.png"
+              alt="Moodaura dark mode interface"
+              loading="lazy"
+            />
+            <img
+              src="assets/images/screenshot-19.png"
+              alt="Moodaura export data options"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Download Section -->
+      <section class="download" aria-labelledby="download-heading">
+        <div class="section-container">
+          <h2 class="home-title" id="download-heading">Get Started Today</h2>
+          <p class="section-description">
+            Available on iOS and Android – your emotional companion, everywhere
+            you go.
+          </p>
+          <div class="store-buttons">
+            <a
+              href="https://play.google.com"
+              class="btn"
+              aria-label="Get it on Google Play"
+            >
+              <img
+                src="assets/icons/playstore.png"
+                alt="Google Play Store"
+                width="180"
+                height="60"
+              />
+            </a>
+            <a
+              href="https://apps.apple.com"
+              class="btn"
+              aria-label="Download on the App Store"
+            >
+              <img
+                src="assets/icons/appstore.png"
+                alt="Apple App Store"
+                width="180"
+                height="60"
+              />
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="contact" aria-labelledby="contact-heading">
+        <div class="section-container">
+          <h2 class="home-title" id="contact-heading" data-i18n="contact.title">
+            Get in Touch
+          </h2>
+          <p
+            class="section-description"
+            id="contact-desc"
+            data-i18n="contact.subtitle"
+          >
+            Have questions or feedback? We'd love to hear from you.
+          </p>
+
+          <div
+            class="contact-form-container"
+            id="contact-form-container"
+            style="display: none"
+          >
+            <form id="contact-form" autocomplete="off" novalidate>
+              <div class="form-group">
+                <label
+                  for="contact-email"
+                  id="contact-email-label"
+                  data-i18n="contact.emailLabel"
+                  >Your Email (required)</label
+                >
+                <input
+                  type="email"
+                  id="contact-email"
+                  name="email"
+                  required
+                  maxlength="100"
+                  autocomplete="email"
+                />
+              </div>
+
+              <div class="form-group">
+                <label
+                  for="contact-title"
+                  id="contact-title-label"
+                  data-i18n="contact.titleLabel"
+                  >Title</label
+                >
+                <input
+                  type="text"
+                  id="contact-title"
+                  name="title"
+                  maxlength="80"
+                  required
+                />
+                <div class="char-counter" id="title-counter">0 / 80</div>
+              </div>
+
+              <div class="form-group">
+                <label
+                  for="contact-description"
+                  id="contact-desc-label"
+                  data-i18n="contact.descLabel"
+                  >Description</label
+                >
+                <textarea
+                  id="contact-description"
+                  name="description"
+                  maxlength="500"
+                  rows="5"
+                  required
+                ></textarea>
+                <div class="char-counter" id="desc-counter">0 / 500</div>
+              </div>
+
+              <button
+                type="submit"
+                class="btn"
+                id="contact-send-btn"
+                data-i18n="contact.sendButton"
+              >
+                Send
+              </button>
+              <div
+                id="contact-form-message"
+                class="form-message"
+                data-i18n="contact.thankYou"
+              ></div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-creator">
+          <span id="footer-created-by">Made by</span> Said Eloudrhiri
+          <span class="copyright"
+            >&copy; 2025, <a href="https://noratek.io">Noratek srl</a></span
+          >
+        </div>
+
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <a href="privacy.html?lang=en" id="privacy-link">Privacy Policy</a>
+          <a href="terms.html?lang=en" id="terms-link">Terms of Use</a>
+        </nav>
+
+        <script>
+          // Simple bot detection: hide form for known bots
+          function isBot() {
+            const ua = navigator.userAgent.toLowerCase();
+            return /bot|crawl|spider|slurp|facebook|whatsapp|telegram|discord|preview|fetch|monitor|pingdom|headless|phantom|curl|wget/.test(
+              ua
+            );
+          }
+          if (!isBot()) {
+            document.getElementById("contact-form-container").style.display =
+              "";
+          }
+
+          // Client-side validation
+          document
+            .getElementById("contact-form")
+            ?.addEventListener("submit", function (e) {
+              e.preventDefault();
+              const email = document
+                .getElementById("contact-email")
+                .value.trim();
+              const title = document
+                .getElementById("contact-title")
+                .value.trim();
+              const desc = document
+                .getElementById("contact-description")
+                .value.trim();
+              const msg = document.getElementById("contact-form-message");
+              msg.textContent = "";
+
+              // Use translations for error messages
+              const t =
+                (window.translations &&
+                  window.translations[window.currentLanguage]?.contact) ||
+                {};
+
+              // Email validation
+              if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) {
+                msg.textContent =
+                  t.errorEmail || "Please enter a valid email address.";
+                return;
+              }
+              // Title validation
+              if (title.length === 0 || title.length > 80) {
+                msg.textContent =
+                  t.errorTitle ||
+                  "Title is required and must be under 80 characters.";
+                return;
+              }
+              // Description validation: no URLs, no code
+              if (desc.length === 0 || desc.length > 500) {
+                msg.textContent =
+                  t.errorDesc ||
+                  "Description is required and must be under 500 characters.";
+                return;
+              }
+              if (
+                /(https?:\/\/|www\.|<|>|script|onerror|onload|javascript:)/i.test(
+                  desc
+                )
+              ) {
+                msg.textContent =
+                  t.errorDescUrl || "Description cannot contain URLs or code.";
+                return;
+              }
+              // Simulate success (replace with real submission)
+              msg.textContent =
+                t.thankYou || "Thank you! Your message has been sent.";
+              this.reset();
+            });
+        </script>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="./js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script>
+      // Character counters for Title and Description
+      function updateCharCounter(inputId, counterId, max) {
+        const input = document.getElementById(inputId);
+        const counter = document.getElementById(counterId);
+        if (!input || !counter) return;
+        input.addEventListener("input", function () {
+          counter.textContent = `${input.value.length} / ${max}`;
+        });
+        // Initialize on page load
+        counter.textContent = `${input.value.length} / ${max}`;
+      }
+      updateCharCounter("contact-title", "title-counter", 80);
+      updateCharCounter("contact-description", "desc-counter", 500);
+    </script>
+  </body>
 </html>

@@ -75,5 +75,18 @@
       ]
     },
     "warning": "If you need help right now, please close the app and contact a professional support service."
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Have questions or feedback? We'd love to hear from you.",
+    "emailLabel": "Your Email (required)",
+    "titleLabel": "Title",
+    "descLabel": "Description",
+    "sendButton": "Send",
+    "thankYou": "Thank you! Your message has been sent.",
+    "errorEmail": "Please enter a valid email address.",
+    "errorTitle": "Title is required and must be under 80 characters.",
+    "errorDesc": "Description is required and must be under 500 characters.",
+    "errorDescUrl": "Description cannot contain URLs or code."
   }
 }

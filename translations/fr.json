@@ -75,5 +75,18 @@
       ]
     },
     "warning": "Si vous avez besoin d’aide immédiatement, veuillez fermer l’application et contacter un service d’assistance professionnel."
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Des questions ou des remarques ? Nous serions ravis de vous lire.",
+    "emailLabel": "Votre e-mail (obligatoire)",
+    "titleLabel": "Titre",
+    "descLabel": "Description",
+    "sendButton": "Envoyer",
+    "thankYou": "Merci ! Votre message a été envoyé.",
+    "errorEmail": "Veuillez entrer une adresse e-mail valide.",
+    "errorTitle": "Le titre est requis et doit comporter moins de 80 caractères.",
+    "errorDesc": "La description est requise et doit comporter moins de 500 caractères.",
+    "errorDescUrl": "La description ne peut pas contenir d’URL ou de code."
   }
 }
