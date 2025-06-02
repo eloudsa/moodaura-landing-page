@@ -79,6 +79,7 @@
   "contact": {
     "title": "Get in Touch",
     "subtitle": "Have questions or feedback? We'd love to hear from you.",
+    "message": "For questions, feedback, or any inquiries, please reach out to us at:",
     "emailLabel": "Your Email (required)",
     "titleLabel": "Title",
     "descLabel": "Description",

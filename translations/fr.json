@@ -79,6 +79,7 @@
   "contact": {
     "title": "Contactez-nous",
     "subtitle": "Des questions ou des remarques ? Nous serions ravis de vous lire.",
+    "message": "Pour toute question, commentaire ou demande, veuillez nous contacter à :",
     "emailLabel": "Votre e-mail (obligatoire)",
     "titleLabel": "Titre",
     "descLabel": "Description",

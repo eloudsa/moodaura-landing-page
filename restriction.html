@@ -3,36 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Age Restriction Notice for Cigarrynos App">
-  <title>Age Restriction - Cigarrynos</title>
-  <link rel="icon" type="image/svg+xml" href="assets/icons/app-icon.svg">
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <lin<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Age Restriction - Cigarrynos - Your Ultimate Cigar Companion App">
-  <title>Age Restriction - Cigarrynos</title>
-  <link rel="icon" type="image/svg+xml" href="assets/icons/app-icon.svg">
+  <meta name="description" content="Mental Health Disclaimer - MoodAura - Your Emotional Well-being Companion">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self';">
+  <meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <title>Mental Health Disclaimer - MoodAura</title>
+  <link rel="icon" type="image/png" href="assets/icons/moodaura-icon.png">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
 <header>
   <div class="header-content">
     <div class="brand">
-      <img src="assets/icons/app-icon.svg" alt="Cigarrynos Logo" class="app-icon" width="64" height="64">
-      <h1>Cigarrynos</h1>
+      <img src="assets/icons/moodaura-icon.png" alt="MoodAura Logo" class="app-icon" width="64" height="64">
+      <h1>MoodAura</h1>
     </div>
   </div>
 </header>
 
 <nav class="language-links" aria-label="Language selection">
-  <a href="#" class="active" onclick="updateContent('en'); return false;" aria-label="Switch to English">EN</a>
+  <a href="#" class="active" data-lang="en" aria-label="Switch to English">EN</a>
   <span aria-hidden="true">|</span>
-  <a href="#" onclick="updateContent('fr'); return false;" aria-label="Switch to French">FR</a>
+  <a href="#" data-lang="fr" aria-label="Switch to French">FR</a>
 </nav>
 
 <main class="restriction-page">
@@ -61,11 +55,11 @@
   <div class="footer-content">
     <div class="footer-creator">
       <span id="footer-created-by" data-i18n="footer.createdBy"></span> Said Eloudrhiri
-      <span class="copyright">&copy; 2024, <a href="https://noratek.io">Noratek srl</a></span>
+      <span class="copyright">&copy; 2025, <a href="https://noratek.io">Noratek srl</a></span>
     </div>
 
     <div class="social-links">
-      <a href="mailto:support@cigarrynos.com" aria-label="Contact Support">
+      <a href="mailto:support@moodaura.app" aria-label="Contact Support">
         <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
           <polyline points="22,6 12,13 2,6"/>
@@ -74,9 +68,8 @@
     </div>
 
     <nav class="footer-nav" aria-label="Footer navigation">
-      <a href="changelog.html" id="whats-new" data-i18n="footer.whatsNew"></a>
-      <a href="privacy.html" id="privacy-link" data-i18n="footer.privacyPolicy"></a>
-      <a href="terms.html" id="terms-link" data-i18n="footer.termsOfUse"></a>
+      <a href="privacy.html?lang=en" id="privacy-link" data-i18n="footer.privacyPolicy"></a>
+      <a href="terms.html?lang=en" id="terms-link" data-i18n="footer.termsOfUse"></a>
     </nav>
   </div>
 </footer>

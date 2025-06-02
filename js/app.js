@@ -5,10 +5,15 @@ document.addEventListener("DOMContentLoaded", async () => {
   const btnNo = document.getElementById("btn-no");
   const contentArea = document.getElementById("content-area");
 
-  // Determine initial language from URL param or storage
-  let currentLanguage =
-    new URLSearchParams(window.location.search).get("lang") ||
-    localStorage.getItem("language") ||
+  // Valid languages whitelist
+  const ALLOWED_LANGS = ['en', 'fr'];
+
+  // Determine initial language from URL param or storage with validation
+  const urlLang = new URLSearchParams(window.location.search).get("lang");
+  const storedLang = localStorage.getItem("language");
+  let currentLanguage = 
+    (urlLang && ALLOWED_LANGS.includes(urlLang)) ? urlLang :
+    (storedLang && ALLOWED_LANGS.includes(storedLang)) ? storedLang :
     "en";
   window.currentLanguage = currentLanguage;
 
@@ -31,18 +36,28 @@ document.addEventListener("DOMContentLoaded", async () => {
   async function loadLegalContent(lang) {
     if (!contentArea) return; // Exit if not on legal page
 
+    // Validate language parameter
+    const validLang = ALLOWED_LANGS.includes(lang) ? lang : 'en';
     const pageType = window.location.pathname.includes("privacy")
       ? "privacy-policies"
       : "terms-of-use";
-    const filePath = `assets/legal/${pageType}-${lang}.md`;
+    const filePath = `assets/legal/${pageType}-${validLang}.md`;
 
     try {
       const response = await fetch(filePath);
       if (!response.ok) throw new Error("Content not found");
       const text = await response.text();
-      contentArea.innerHTML = marked.parse(text);
+      // Note: DOMPurify should be loaded on legal pages for sanitization
+      if (typeof DOMPurify !== 'undefined') {
+        contentArea.innerHTML = DOMPurify.sanitize(marked.parse(text));
+      } else {
+        // Fallback: escape HTML if DOMPurify not available
+        const div = document.createElement('div');
+        div.textContent = text;
+        contentArea.innerHTML = div.innerHTML;
+      }
     } catch (error) {
-      contentArea.innerHTML = `<p class="error">Error loading content: ${error.message}</p>`;
+      contentArea.textContent = `Error loading content: ${error.message}`;
     }
   }
 
@@ -53,6 +68,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     const contactIds = [
       ["contact-heading", t.contact.title],
       ["contact-desc", t.contact.subtitle],
+      ["contact-message", t.contact.message],
       ["contact-email-label", t.contact.emailLabel],
       ["contact-title-label", t.contact.titleLabel],
       ["contact-desc-label", t.contact.descLabel],
@@ -248,6 +264,17 @@ document.addEventListener("DOMContentLoaded", async () => {
       window.location.href = "restriction.html";
     });
   }
+
+  // Add event listeners for language links
+  document.querySelectorAll('[data-lang]').forEach(link => {
+    link.addEventListener('click', (e) => {
+      e.preventDefault();
+      const lang = e.target.dataset.lang;
+      if (ALLOWED_LANGS.includes(lang)) {
+        updateContent(lang);
+      }
+    });
+  });
 
   // Init
   await loadTranslations(currentLanguage);

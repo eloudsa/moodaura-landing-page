@@ -3,9 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self';">
   <title>MoodAura – Privacy Policy</title>
   <link rel="stylesheet" href="./css/style.css" />
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dompurify@3.0.8/dist/purify.min.js"></script>
 </head>
 <body>
 <main class="legal-container">
@@ -13,21 +15,35 @@
 </main>
 
 <script>
-  // Detect language from query param or fallback to 'en'
-  const lang = new URLSearchParams(window.location.search).get('lang') || 'en';
-  const file = `assets/legal/privacy-policies-${lang}.md`;
+  // Wait for DOM and libraries to load
+  window.addEventListener('DOMContentLoaded', function() {
+    // Validate language parameter to prevent path traversal
+    const ALLOWED_LANGS = ['en', 'fr'];
+    const langParam = new URLSearchParams(window.location.search).get('lang') || 'en';
+    const lang = ALLOWED_LANGS.includes(langParam) ? langParam : 'en';
+    const file = `assets/legal/privacy-policies-${lang}.md`;
 
-  fetch(file)
-    .then(res => {
-      if (!res.ok) throw new Error("File not found");
-      return res.text();
-    })
-    .then(md => {
-      document.getElementById('content-area').innerHTML = marked.parse(md);
-    })
-    .catch(() => {
-      document.getElementById('content-area').innerHTML = `<p>Unable to load privacy policy in the selected language.</p>`;
-    });
+    fetch(file)
+      .then(res => {
+        if (!res.ok) throw new Error("File not found");
+        return res.text();
+      })
+      .then(md => {
+        // Sanitize HTML to prevent XSS attacks
+        try {
+          const dirty = marked.parse(md);
+          const clean = DOMPurify.sanitize(dirty);
+          document.getElementById('content-area').innerHTML = clean;
+        } catch (e) {
+          console.error('Error parsing markdown:', e);
+          document.getElementById('content-area').innerHTML = `<p>Error loading privacy policy.</p>`;
+        }
+      })
+      .catch((error) => {
+        console.error('Error loading file:', error);
+        document.getElementById('content-area').innerHTML = `<p>Unable to load privacy policy in the selected language.</p>`;
+      });
+  });
 </script>
 </body>
 </html>

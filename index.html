@@ -7,6 +7,9 @@
       name="description"
       content="MoodAura – Track Your Moods, Understand Your Mind"
     />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self';">
+    <meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
     <title>MoodAura – Track Your Moods, Understand Your Mind</title>
     <link rel="icon" type="image/png" href="assets/icons/moodaura-icon.png" />
     <link rel="stylesheet" href="./css/style.css" />
@@ -45,14 +48,14 @@
       <a
         href="#"
         class="active"
-        onclick="updateContent('en'); return false;"
+        data-lang="en"
         aria-label="Switch to English"
         >EN</a
       >
       <span aria-hidden="true">|</span>
       <a
         href="#"
-        onclick="updateContent('fr'); return false;"
+        data-lang="fr"
         aria-label="Switch to French"
         >FR</a
       >
@@ -252,7 +255,7 @@
       </section>
 
       <!-- Contact Section -->
-      <section class="contact" aria-labelledby="contact-heading">
+      <section class="contact" id="contact-form" aria-labelledby="contact-heading">
         <div class="section-container">
           <h2 class="home-title" id="contact-heading" data-i18n="contact.title">
             Get in Touch
@@ -265,77 +268,13 @@
             Have questions or feedback? We'd love to hear from you.
           </p>
 
-          <div
-            class="contact-form-container"
-            id="contact-form-container"
-            style="display: none"
-          >
-            <form id="contact-form" autocomplete="off" novalidate>
-              <div class="form-group">
-                <label
-                  for="contact-email"
-                  id="contact-email-label"
-                  data-i18n="contact.emailLabel"
-                  >Your Email (required)</label
-                >
-                <input
-                  type="email"
-                  id="contact-email"
-                  name="email"
-                  required
-                  maxlength="100"
-                  autocomplete="email"
-                />
-              </div>
-
-              <div class="form-group">
-                <label
-                  for="contact-title"
-                  id="contact-title-label"
-                  data-i18n="contact.titleLabel"
-                  >Title</label
-                >
-                <input
-                  type="text"
-                  id="contact-title"
-                  name="title"
-                  maxlength="80"
-                  required
-                />
-                <div class="char-counter" id="title-counter">0 / 80</div>
-              </div>
-
-              <div class="form-group">
-                <label
-                  for="contact-description"
-                  id="contact-desc-label"
-                  data-i18n="contact.descLabel"
-                  >Description</label
-                >
-                <textarea
-                  id="contact-description"
-                  name="description"
-                  maxlength="500"
-                  rows="5"
-                  required
-                ></textarea>
-                <div class="char-counter" id="desc-counter">0 / 500</div>
-              </div>
-
-              <button
-                type="submit"
-                class="btn"
-                id="contact-send-btn"
-                data-i18n="contact.sendButton"
-              >
-                Send
-              </button>
-              <div
-                id="contact-form-message"
-                class="form-message"
-                data-i18n="contact.thankYou"
-              ></div>
-            </form>
+          <div class="contact-info">
+            <p class="contact-message" id="contact-message">
+              For questions, feedback, or any inquiries, please reach out to us at:
+            </p>
+            <a href="#" class="contact-email-link" id="contact-email-link">
+              <!-- Email will be inserted by JavaScript -->
+            </a>
           </div>
         </div>
       </section>
@@ -355,97 +294,38 @@
           <a href="terms.html?lang=en" id="terms-link">Terms of Use</a>
         </nav>
 
-        <script>
-          // Simple bot detection: hide form for known bots
-          function isBot() {
-            const ua = navigator.userAgent.toLowerCase();
-            return /bot|crawl|spider|slurp|facebook|whatsapp|telegram|discord|preview|fetch|monitor|pingdom|headless|phantom|curl|wget/.test(
-              ua
-            );
-          }
-          if (!isBot()) {
-            document.getElementById("contact-form-container").style.display =
-              "";
-          }
-
-          // Client-side validation
-          document
-            .getElementById("contact-form")
-            ?.addEventListener("submit", function (e) {
-              e.preventDefault();
-              const email = document
-                .getElementById("contact-email")
-                .value.trim();
-              const title = document
-                .getElementById("contact-title")
-                .value.trim();
-              const desc = document
-                .getElementById("contact-description")
-                .value.trim();
-              const msg = document.getElementById("contact-form-message");
-              msg.textContent = "";
-
-              // Use translations for error messages
-              const t =
-                (window.translations &&
-                  window.translations[window.currentLanguage]?.contact) ||
-                {};
-
-              // Email validation
-              if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) {
-                msg.textContent =
-                  t.errorEmail || "Please enter a valid email address.";
-                return;
-              }
-              // Title validation
-              if (title.length === 0 || title.length > 80) {
-                msg.textContent =
-                  t.errorTitle ||
-                  "Title is required and must be under 80 characters.";
-                return;
-              }
-              // Description validation: no URLs, no code
-              if (desc.length === 0 || desc.length > 500) {
-                msg.textContent =
-                  t.errorDesc ||
-                  "Description is required and must be under 500 characters.";
-                return;
-              }
-              if (
-                /(https?:\/\/|www\.|<|>|script|onerror|onload|javascript:)/i.test(
-                  desc
-                )
-              ) {
-                msg.textContent =
-                  t.errorDescUrl || "Description cannot contain URLs or code.";
-                return;
-              }
-              // Simulate success (replace with real submission)
-              msg.textContent =
-                t.thankYou || "Thank you! Your message has been sent.";
-              this.reset();
-            });
-        </script>
       </div>
     </footer>
 
     <!-- Scripts -->
     <script src="./js/app.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked@9.1.6/marked.min.js" integrity="sha384-6q7oRzB6lMvE8nZwXh6E2NG+clEEDXC8LdE8lb1LQQxbJspcK7CSCS+H9tP3ikSf" crossorigin="anonymous"></script>
     <script>
-      // Character counters for Title and Description
-      function updateCharCounter(inputId, counterId, max) {
-        const input = document.getElementById(inputId);
-        const counter = document.getElementById(counterId);
-        if (!input || !counter) return;
-        input.addEventListener("input", function () {
-          counter.textContent = `${input.value.length} / ${max}`;
-        });
-        // Initialize on page load
-        counter.textContent = `${input.value.length} / ${max}`;
-      }
-      updateCharCounter("contact-title", "title-counter", 80);
-      updateCharCounter("contact-description", "desc-counter", 500);
+      // Email obfuscation to prevent bot scraping
+      (function() {
+        // Construct email dynamically
+        const user = 'support';
+        const domain = 'moodaura';
+        const tld = 'app';
+        const email = user + '@' + domain + '.' + tld;
+        
+        // Get the email link element
+        const emailLink = document.getElementById('contact-email-link');
+        if (emailLink) {
+          // Set the href and text content
+          emailLink.href = 'mailto:' + email;
+          emailLink.textContent = user + ' [at] ' + domain + ' [dot] ' + tld;
+          
+          // Optional: reveal real email on hover
+          emailLink.addEventListener('mouseenter', function() {
+            this.textContent = email;
+          });
+          
+          emailLink.addEventListener('mouseleave', function() {
+            this.textContent = user + ' [at] ' + domain + ' [dot] ' + tld;
+          });
+        }
+      })();
     </script>
   </body>
 </html>

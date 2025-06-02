@@ -71,14 +71,16 @@ header {
   font-size: 1.8rem;
   margin: 1.5rem 0;
   font-weight: 600;
+  color: var(--primary-dark);
 }
 
 .header-description {
   max-width: 700px;
   margin: 1.8rem auto;
   font-size: 1.4rem;
-  color: var(--light-text);
-  opacity: 0.95;
+  color: var(--primary-dark);
+  opacity: 0.9;
+  font-weight: 500;
 }
 
 /* Language Selector */
@@ -425,6 +427,41 @@ footer {
 
 .home-link:hover {
   transform: scale(1.05);
+}
+
+/* Contact Info Styles */
+.contact-info {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.contact-message {
+  font-size: 1.2rem;
+  color: var(--text-color);
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.contact-email-link {
+  display: inline-block;
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  text-decoration: none;
+  padding: 1rem 2rem;
+  background-color: rgba(40, 111, 183, 0.1);
+  border: 2px solid var(--primary-color);
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  font-weight: 600;
+  cursor: pointer;
+  user-select: none;
+}
+
+.contact-email-link:hover {
+  background-color: var(--primary-color);
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(40, 111, 183, 0.3);
 }
 
 /* Responsive Adjustments for Legal Pages */
