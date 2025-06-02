@@ -140,6 +140,16 @@ document.addEventListener("DOMContentLoaded", async () => {
       carouselHeading.textContent = t.discover.title;
       screenshotsDesc.textContent = t.discover.subtitle;
     }
+    
+    // Update feature showcase items
+    if (t.discover && t.discover.features) {
+      t.discover.features.forEach((feature, index) => {
+        const featureTitle = document.querySelector(`.feature-title[data-feature="${index + 1}"]`);
+        const featureDesc = document.querySelector(`.feature-desc[data-feature="${index + 1}"]`);
+        if (featureTitle) featureTitle.textContent = feature.title;
+        if (featureDesc) featureDesc.textContent = feature.description;
+      });
+    }
 
     // Restriction page
     const restrictionContent = document.querySelector(".restriction-content");

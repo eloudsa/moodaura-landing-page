@@ -40,8 +40,42 @@
     ]
   },
   "discover": {
-    "title": "Explore MoodAura",
-    "subtitle": "Take a visual tour of our calming, intuitive emotional tracking experience"
+    "title": "Take a Look Inside",
+    "subtitle": "Explore the clean, intuitive interface of MoodAura",
+    "features": [
+      {
+        "title": "Express with Your Aura",
+        "description": "Add and move the aura to match your current mood. Create a visual representation of how you feel with customizable colors and intensities that reflect your emotional state."
+      },
+      {
+        "title": "Complex Emotions",
+        "description": "Add up to 5 moods at once because emotions are rarely simple. Capture the full spectrum of what you're feeling in any given moment."
+      },
+      {
+        "title": "Add Context",
+        "description": "Give some context about your mood with notes, activities, and location. Understanding the \"why\" behind your emotions helps identify patterns and triggers."
+      },
+      {
+        "title": "Timeline View",
+        "description": "Visualize your moods through a timeline that shows your emotional journey over days, weeks, or months. Spot trends and patterns at a glance."
+      },
+      {
+        "title": "Export Your Journey",
+        "description": "Display or export in PDF a log of your moods. Perfect for sharing with therapists or keeping a personal record of your emotional well-being journey."
+      },
+      {
+        "title": "Gentle Reminders",
+        "description": "Be notified everyday to allow MoodAura to ask you how you feel or following a change of your mood. Never forget to check in with yourself."
+      },
+      {
+        "title": "Growing Support",
+        "description": "Get some help with a section that will grow over time. Access resources, tips, and guidance for better emotional well-being."
+      },
+      {
+        "title": "Bilingual Support",
+        "description": "Use the app in English or French. MoodAura speaks your language to make emotional tracking comfortable and accessible."
+      }
+    ]
   },
   "download": {
     "title": "Start Your Journey",

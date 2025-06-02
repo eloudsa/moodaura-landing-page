@@ -40,8 +40,42 @@
     ]
   },
   "discover": {
-    "title": "Découvrez MoodAura",
-    "subtitle": "Faites un tour visuel de notre interface apaisante et intuitive"
+    "title": "Découvrez l'Application",
+    "subtitle": "Explorez l'interface épurée et intuitive de MoodAura",
+    "features": [
+      {
+        "title": "Exprimez-vous avec votre Aura",
+        "description": "Ajoutez et déplacez l'aura pour correspondre à votre humeur actuelle. Créez une représentation visuelle de vos sentiments avec des couleurs et des intensités personnalisables qui reflètent votre état émotionnel."
+      },
+      {
+        "title": "Émotions Complexes",
+        "description": "Ajoutez jusqu'à 5 humeurs à la fois car les émotions sont rarement simples. Capturez tout le spectre de ce que vous ressentez à un moment donné."
+      },
+      {
+        "title": "Ajoutez du Contexte",
+        "description": "Donnez du contexte à votre humeur avec des notes, des activités et votre localisation. Comprendre le \"pourquoi\" de vos émotions aide à identifier les modèles et les déclencheurs."
+      },
+      {
+        "title": "Vue Chronologique",
+        "description": "Visualisez vos humeurs à travers une ligne de temps qui montre votre parcours émotionnel sur des jours, des semaines ou des mois. Repérez les tendances et les modèles en un coup d'œil."
+      },
+      {
+        "title": "Exportez votre Parcours",
+        "description": "Affichez ou exportez en PDF un journal de vos humeurs. Parfait pour partager avec des thérapeutes ou garder un enregistrement personnel de votre parcours de bien-être émotionnel."
+      },
+      {
+        "title": "Rappels Bienveillants",
+        "description": "Soyez notifié tous les jours pour permettre à MoodAura de vous demander comment vous vous sentez ou suite à un changement d'humeur. N'oubliez jamais de prendre de vos nouvelles."
+      },
+      {
+        "title": "Support en Évolution",
+        "description": "Obtenez de l'aide avec une section qui grandira avec le temps. Accédez à des ressources, des conseils et des orientations pour un meilleur bien-être émotionnel."
+      },
+      {
+        "title": "Support Bilingue",
+        "description": "Utilisez l'application en anglais ou en français. MoodAura parle votre langue pour rendre le suivi émotionnel confortable et accessible."
+      }
+    ]
   },
   "download": {
     "title": "Commencez votre voyage",
