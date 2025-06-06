@@ -251,7 +251,7 @@
           </p>
           <div class="store-buttons">
             <a
-              href="https://play.google.com"
+              href="https://play.google.com/store/apps/details?id=app.moodaura"
               class="btn"
               aria-label="Get it on Google Play"
             >
@@ -263,7 +263,7 @@
               />
             </a>
             <a
-              href="https://apps.apple.com"
+              href="https://apps.apple.com/be/app/moodaura/id6740749357"
               class="btn"
               aria-label="Download on the App Store"
             >
@@ -332,19 +332,19 @@
         const domain = 'moodaura';
         const tld = 'app';
         const email = user + '@' + domain + '.' + tld;
-        
+
         // Get the email link element
         const emailLink = document.getElementById('contact-email-link');
         if (emailLink) {
           // Set the href and text content
           emailLink.href = 'mailto:' + email;
           emailLink.textContent = user + ' [at] ' + domain + ' [dot] ' + tld;
-          
+
           // Optional: reveal real email on hover
           emailLink.addEventListener('mouseenter', function() {
             this.textContent = email;
           });
-          
+
           emailLink.addEventListener('mouseleave', function() {
             this.textContent = user + ' [at] ' + domain + ' [dot] ' + tld;
           });
