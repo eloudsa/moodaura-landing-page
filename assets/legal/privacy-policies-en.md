@@ -1,90 +1,118 @@
 # Privacy Policy for Moodaura
 
-**Last updated:** May 3, 2025
+**Last updated:** June 11, 2025
 
-Noratek SRL ("we", "our", or "us"), a company registered in Belgium with VAT number BE0470043093, is committed to protecting the privacy of users of the Moodaura application ("App"). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our App.
+Noratek SRL ("we", "our", or "us"), a company registered in Belgium with VAT number BE0470043093, is committed to protecting the privacy of users of the Moodaura application ("App"). This Privacy Policy explains how we handle your information when you use our App.
 
-Please read this privacy policy carefully. If you do not agree with the terms of this privacy policy, please do not access the App.
+Please read this privacy policy carefully. If you do not agree with the terms of this privacy policy, please do not access or use the App.
+
+---
 
 ## 1. Age Restriction
 
-Moodaura is intended for users who are at least **16 years old**. We do not knowingly collect personal information from anyone under the age of 16. If we become aware that we have collected personal data from anyone under 16, we will take steps to delete that information.
+Moodaura is available to users of all ages. We do not impose any minimum age requirement. However, we recommend that children under the age of 16 use the App under the supervision of a parent or guardian. The App is designed to function without collecting any personal information from users.
+
+---
 
 ## 2. Information We Collect
 
-We collect information that you provide directly to us when you:
-
-- Use features of the App
-- Communicate with us directly
-
-The types of data we may collect include:
+Moodaura is designed to prioritize your privacy. We do **not** collect or store personal data such as names, email addresses, or location. The only information collected is technical and anonymous in nature:
 
 - **Usage data and analytics**
 - **Crash reports**
 
-Your mood entries and any photos you link to them are **stored locally on your device** and are **not transmitted to us**.
+These are used solely to improve the stability and performance of the App.
+
+Your mood entries, comments, and any linked photos are **stored locally on your device** and are **never transmitted to us**.
+
+---
 
 ## 3. How We Use Your Information
 
-We use your information for various purposes, including to:
+We only use aggregated and anonymous information for the following purposes:
 
-- Provide, maintain, and improve our App
-- Respond to your comments, questions, and requests
-- Monitor and analyze trends, usage, and activities in connection with our App
-- Detect, investigate, and prevent fraudulent activities and protect the rights and property of Noratek SRL and others
+- Maintain and improve App functionality
+- Understand general usage patterns and trends
+- Detect and resolve crashes or bugs
+- Ensure technical security and performance
+
+We do **not** use any data for advertising, profiling, or tracking purposes.
+
+---
 
 ## 4. Data Storage and Security
 
-All your personal data, including mood entries and linked photos, are stored locally on your device. We do not store your personal data on our servers. We implement appropriate technical and organizational measures to protect your data against unauthorized or unlawful processing, accidental loss, destruction, or damage.
+All your personal entries (moods, comments, and linked photos) are stored **locally on your device**. We do not process or store this data on any external server. As such:
+
+- You are fully in control of your own data
+- Data is deleted permanently when you uninstall the App
+- We take appropriate measures within the app to minimize security risks, but your device's security also plays a role in protecting your information
+
+---
 
 ## 5. Sharing of Your Information
 
-We do not sell or share your personal information with third parties. We may share aggregated or anonymized information (which cannot reasonably be used to identify you) with third parties. We may also share your information in the following situations:
+We do **not sell, share, or transmit** your personal information to any third parties.
 
-- If required by law or in response to valid requests by public authorities
-- To protect our rights, privacy, safety, or property, and/or that of you or others
+We may share aggregated, anonymized usage statistics (that cannot identify you) with service providers or partners for the sole purpose of improving the App. We may also disclose information if legally required to do so.
+
+---
 
 ## 6. Your Data Protection Rights (GDPR Compliance)
 
-Under GDPR, you have the following rights:
+Moodaura complies with the principles of the General Data Protection Regulation (GDPR), but due to the **local-only nature** of the App:
 
-- **The right to access** – You can request copies of your personal data.
-- **The right to rectification** – You can request that we correct any information you believe is inaccurate or complete information you believe is incomplete.
-- **The right to erasure** – You can request that we erase your personal data, under certain conditions.
-- **The right to restrict processing** – You can request that we restrict the processing of your personal data, under certain conditions.
-- **The right to object to processing** – You can object to our processing of your personal data, under certain conditions.
-- **The right to data portability** – You can request that we transfer the data we've collected to another organization, or directly to you, under certain conditions.
+- We do **not collect or store personal data**
+- You **do not need to create an account or log in**
+- **No identifiable user profile** exists in the App
 
-Since your personal data is stored locally on your device, some of these rights may be exercised by managing your device settings or uninstalling the App. To exercise any of these rights or for assistance, please contact us at [privacy@moodaura.app](mailto:privacy@moodaura.app).
+As a result, most GDPR rights (such as access, correction, or data portability) are inherently under your control:
+
+- **Access and modify data**: You can view or edit your mood entries directly within the App.
+- **Data deletion**: Uninstalling the App will remove all your data from your device.
+- **No processing or profiling**: We do not track, process, or profile any user data.
+
+If you have questions about your rights or how we handle privacy, you can contact us at [privacy@moodaura.app](mailto:privacy@moodaura.app).
+
+---
 
 ## 7. Uninstallation and Data Deletion
 
-You may uninstall the App at any time to delete the data stored on your device. Uninstalling the App will remove all locally stored data, including your mood entries and linked photos.
+You can delete all your data at any time by uninstalling the App. This action will permanently remove all mood entries, comments, and photos stored on your device.
+
+---
 
 ## 8. Communication
 
-We do not send unsolicited emails or notifications to users. Any communications you receive from us will be strictly related to the functionality and use of the App.
+We do not send marketing emails, push notifications, or in-app advertisements. Any communication from us will be limited to responding to user inquiries or informing about critical updates related to the App's functionality or privacy.
+
+---
 
 ## 9. Analytics and Crash Reporting
 
-We use third-party services such as **Sentry** to collect usage data and crash reports. These services help us understand how the App is used and improve its performance. Sentry may collect information such as your device type, operating system, and other technical information. Please refer to [Sentry's Privacy Policy](https://sentry.io/privacy/) for more information on how they handle your data.
+We use third-party tools such as **Sentry** to collect anonymous crash reports and usage data. These tools may collect non-personal technical details such as:
+
+- Device type
+- Operating system version
+- App version
+- Crash logs
+
+These reports help us improve the performance and stability of Moodaura. For more details, refer to [Sentry's Privacy Policy](https://sentry.io/privacy/).
+
+---
 
 ## 10. Changes to This Privacy Policy
 
-We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last updated" date.
+We may update this Privacy Policy periodically. Any changes will be posted on this page with the revised "Last updated" date. Continued use of the App after any changes implies your acceptance of the updated policy.
 
-## 11. Subscription and Payment Data
+---
 
-All purchases made through the Moodaura app are processed securely via the Apple App Store or Google Play Store. We do not collect or store your payment details. Instead, payment and subscription management is handled by your respective app store.
+## 11. Contact Us
 
-We may receive anonymized data related to your subscription status (e.g., active, expired) to provide appropriate access to premium features. This data is used solely for this purpose and not shared with third parties except those involved in the subscription infrastructure (e.g., Firebase, RevenueCat).
+If you have any questions or concerns regarding this Privacy Policy or data privacy within the App, please contact us:
 
-## 12. Contact Us
-
-For any questions about this Privacy Policy, please contact us at:
-
-**Company:** Noratek SRL
-**Email:** [privacy@moodaura.app](mailto:privacy@moodaura.app)
+**Company:** Noratek SRL  
+**Email:** [privacy@moodaura.app](mailto:privacy@moodaura.app)  
 **Website:** [https://www.moodaura.app](https://www.moodaura.app)
 
 ---
