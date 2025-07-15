@@ -1,118 +1,135 @@
-# Politique de Confidentialité de Moodaura
+# Politique de confidentialité de MoodAura
 
-**Dernière mise à jour :** 11 juin 2025
+**Dernière mise à jour :** 14 juillet 2025
 
-Noratek SRL (« nous », « notre » ou « nos »), une société enregistrée en Belgique sous le numéro de TVA BE0470043093, s'engage à protéger la vie privée des utilisateurs de l'application Moodaura (« l’Application »). Cette Politique de Confidentialité explique comment nous traitons vos informations lorsque vous utilisez notre Application.
+Noratek SRL (« nous », « notre »), société enregistrée en Belgique sous le numéro de TVA BE0470043093, s’engage à
+protéger la vie privée des utilisateurs de l’application MoodAura (« l’App »). Cette politique explique comment nous
+traitons vos données lorsque vous utilisez l’App.
 
-Veuillez lire attentivement cette politique de confidentialité. Si vous n'êtes pas d'accord avec ses termes, veuillez ne pas utiliser l'Application.
+Veuillez lire attentivement cette politique de confidentialité. Si vous êtes en désaccord avec ses termes, veuillez ne
+pas utiliser l’App.
 
 ---
 
-## 1. Restrictions d'âge
+## 1. Restrictions d’âge
 
-Moodaura est accessible à tous les utilisateurs, sans limite d'âge. Toutefois, nous recommandons que les enfants de moins de 16 ans utilisent l'Application sous la supervision d'un parent ou tuteur. L'Application est conçue pour fonctionner sans collecter d'informations personnelles sur les utilisateurs.
+MoodAura est accessible à tous les âges. Toutefois, nous recommandons que les enfants de moins de 16 ans utilisent l’App
+sous la supervision d’un parent ou d’un tuteur. L’App est conçue pour fonctionner **sans collecter de données
+personnelles**.
 
 ---
 
 ## 2. Informations que nous collectons
 
-Moodaura est conçue pour prioriser votre vie privée. Nous ne collectons **aucune** donnée personnelle telle que les noms, adresses e-mail ou localisation. Seules des informations techniques et anonymes sont collectées :
+MoodAura est conçue dans un souci de respect de votre vie privée. Nous ne collectons ni ne stockons aucune donnée
+personnelle, telles que noms, adresses e‑mail ou localisation. Seules les données suivantes peuvent être utilisées :
 
-- **Données d'utilisation et d'analyse**
-- **Rapports d’erreur**
+- **Données d’utilisation et rapports de plantage**
+- **Données de santé, uniquement si vous y consentez** (ex. : fréquence cardiaque, sommeil, nombre de pas)
 
-Ces données sont utilisées uniquement pour améliorer la stabilité et les performances de l’Application.
+L’accès aux données de santé est **strictement basé sur votre consentement explicite**. Si vous l’autorisez, ces données
+sont **stockées localement sur votre appareil** et ne sont jamais transmises ni partagées. Vous pouvez retirer ce
+consentement à tout moment via les réglages de votre appareil.
 
-Vos saisies d’humeur, commentaires et photos associées sont **stockées localement sur votre appareil** et **ne nous sont jamais transmises**.
+Vos saisies d’humeur, données de santé, commentaires et photos restent **exclusivement sur votre appareil**.
 
 ---
 
-## 3. Comment nous utilisons vos informations
+## 3. Utilisation de vos informations
 
-Nous utilisons uniquement des informations agrégées et anonymes dans les buts suivants :
+Nous utilisons uniquement des données anonymes et agrégées dans le but de :
 
-- Maintenir et améliorer les fonctionnalités de l'Application
-- Comprendre les tendances et comportements d’utilisation
-- Détecter et corriger les erreurs ou dysfonctionnements
-- Assurer la sécurité et les performances techniques
+- Maintenir et améliorer les fonctionnalités de l’App
+- Comprendre les tendances générales d’utilisation
+- Détecter et corriger les bugs ou plantages
+- Garantir la sécurité technique et la performance
 
-Nous n'utilisons **aucune donnée** à des fins publicitaires, de profilage ou de suivi.
+Nous **n’utilisons pas** vos données à des fins publicitaires, de profilage ou de suivi.
 
 ---
 
 ## 4. Stockage et sécurité des données
 
-Toutes vos données personnelles (humeurs, commentaires, photos liées) sont **stockées localement sur votre appareil**. Nous ne les traitons ni ne les stockons sur aucun serveur externe. Par conséquent :
+Toutes vos données personnelles (humeurs, commentaires, photos) sont stockées **localement sur votre appareil**. Nous ne
+les traitons ni ne les stockons sur des serveurs externes. Ainsi :
 
-- Vous gardez **le contrôle total** de vos données
-- Les données sont définitivement supprimées lorsque vous désinstallez l'Application
-- Des mesures adéquates sont prises dans l’Application pour limiter les risques, mais la sécurité de votre appareil joue aussi un rôle
+- Vous gardez un contrôle total sur vos données
+- La désinstallation de l’App supprime définitivement toutes vos données
+- Nous mettons en œuvre des mesures de sécurité dans l’App, mais la sécurité de votre appareil reste également
+  essentielle
 
 ---
 
 ## 5. Partage de vos informations
 
-Nous **ne vendons, partageons ni transmettons** vos informations personnelles à des tiers.
+Nous **ne vendons, ne partageons ni ne transmettons** vos informations personnelles à des tiers.
 
-Nous pouvons partager des statistiques d'utilisation **agrégées et anonymisées** (qui ne permettent pas de vous identifier) avec des prestataires de services ou partenaires à des fins strictement techniques ou d'amélioration de l’Application. Nous pourrons également divulguer des informations si cela est requis par la loi.
+Nous pouvons partager des statistiques d’utilisation **anonymes et agrégées** avec nos partenaires dans le seul but
+d’améliorer l’App. Nous pourrions également être tenus de divulguer certaines données si la loi l’exige.
 
 ---
 
-## 6. Vos droits en matière de protection des données (Conformité RGPD)
+## 6. Vos droits en matière de données personnelles (RGPD)
 
-Moodaura respecte les principes du Règlement Général sur la Protection des Données (RGPD). Cependant, en raison de la nature **locale et hors ligne** de l’Application :
+MoodAura respecte les principes du Règlement général sur la protection des données (RGPD). Cependant, en raison de la *
+*nature strictement locale** de l’App :
 
-- Nous **ne collectons ni stockons aucune donnée personnelle**
-- Vous **n’avez pas besoin de créer de compte ni de vous connecter**
-- Il **n’existe aucun profil utilisateur identifiable**
+- Aucune donnée personnelle n’est collectée ni stockée
+- Aucun compte ni connexion n’est requis
+- Aucun profil utilisateur identifiable n’existe
 
-En conséquence, la plupart des droits RGPD (comme l'accès, la rectification ou la portabilité des données) relèvent directement de **votre propre contrôle** :
+Ainsi, la plupart de vos droits RGPD (accès, rectification, portabilité) sont automatiquement sous votre contrôle :
 
-- **Accès et modification des données** : vous pouvez consulter ou modifier vos humeurs à tout moment dans l’Application.
-- **Suppression des données** : la désinstallation de l’Application supprime définitivement toutes vos données du dispositif.
-- **Aucun traitement ou profilage** : nous ne suivons, traitons ni analysons aucune donnée personnelle.
+- **Accès et modification** : vous pouvez visualiser et modifier vos données dans l’App
+- **Suppression** : désinstaller l’App supprime toutes vos données
+- **Pas de traitement ni de profilage** : aucune analyse ou surveillance n’est effectuée
 
-Pour toute question concernant vos droits ou notre gestion de la confidentialité, vous pouvez nous contacter à [privacy@moodaura.app](mailto:privacy@moodaura.app).
+Pour toute question à ce sujet, contactez-nous à [privacy@moodaura.app](mailto:privacy@moodaura.app).
 
 ---
 
 ## 7. Désinstallation et suppression des données
 
-Vous pouvez supprimer vos données à tout moment en désinstallant l'Application. Cette action effacera de manière permanente toutes vos humeurs, commentaires et photos stockées sur votre appareil.
+Vous pouvez supprimer toutes vos données à tout moment en désinstallant l’App. Cela effacera définitivement toutes les
+humeurs, commentaires et photos enregistrés sur votre appareil.
 
 ---
 
 ## 8. Communication
 
-Nous n'envoyons aucun e-mail marketing, notification push ou publicité dans l’Application. Toute communication de notre part sera strictement liée à des demandes de support ou à des mises à jour critiques concernant l’Application ou la politique de confidentialité.
+Nous n’envoyons ni publicités, ni notifications push, ni emails marketing. Toute communication de notre part se limite
+aux réponses à vos demandes ou à des informations importantes sur l’App.
 
 ---
 
-## 9. Analyse et rapports d’erreur
+## 9. Analyse et rapports de plantage
 
-Nous utilisons des outils tiers comme **Sentry** pour recueillir des rapports d’erreur et des données d’utilisation anonymes. Ces outils peuvent collecter des détails techniques non personnels, tels que :
+Nous utilisons des outils tiers tels que **Sentry** pour collecter des rapports anonymes sur les plantages et
+l’utilisation. Ces outils peuvent collecter :
 
-- Type d’appareil
-- Version du système d’exploitation
-- Version de l’application
-- Journaux de crash
+- Le type d’appareil
+- La version du système d’exploitation
+- La version de l’application
+- Les journaux d’erreurs
 
-Ces rapports nous aident à améliorer les performances et la stabilité de Moodaura. Pour plus d’informations, consultez la [Politique de confidentialité de Sentry](https://sentry.io/privacy/).
-
----
-
-## 10. Modifications de cette politique de confidentialité
-
-Nous pouvons mettre à jour cette politique de confidentialité périodiquement. Toute modification sera publiée sur cette page avec la nouvelle date de mise à jour. La poursuite de l’utilisation de l’Application vaut acceptation des nouvelles conditions.
+Ces rapports nous aident à améliorer la stabilité et les performances de l’App. Pour plus d’informations, consultez
+la [politique de confidentialité de Sentry](https://sentry.io/privacy/).
 
 ---
 
-## 11. Nous contacter
+## 10. Modifications de cette politique
 
-Pour toute question concernant cette politique de confidentialité ou la gestion de vos données dans l'Application, veuillez nous contacter :
+Cette politique peut être mise à jour. Toute modification sera affichée avec une nouvelle date de mise à jour. La
+poursuite de l’utilisation de l’App vaut acceptation des modifications.
+
+---
+
+## 11. Contact
+
+Pour toute question relative à cette politique de confidentialité :
 
 **Société :** Noratek SRL  
-**E-mail :** [privacy@moodaura.app](mailto:privacy@moodaura.app)  
+**Email :** [privacy@moodaura.app](mailto:privacy@moodaura.app)  
 **Site web :** [https://www.moodaura.app](https://www.moodaura.app)
 
 ---
